@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>handlanuse2-arch | Web Publishing & SEO Project Hub</title>
+<meta name="description" content="Public project hub for web publishing, static-site development, SEO experiments, crawlability, content architecture and web performance resources.">
+<meta name="robots" content="index,follow">
+<style>
+:root{--ink:#182236;--muted:#637087;--accent:#4057d6;--soft:#eef1ff;--line:#dfe4ee;--bg:#f5f7fb;--card:#fff;--dark:#11192b}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.75 Arial,sans-serif}
+a{color:var(--accent);text-underline-offset:3px}.wrap{width:min(1100px,calc(100% - 32px));margin:auto}
+header{background:linear-gradient(135deg,#e9edff,#fff 58%,#f0f3ff);border-bottom:1px solid var(--line)}
+nav{display:flex;justify-content:space-between;align-items:center;padding:18px 0;color:var(--muted)}.brand{font-weight:800;color:var(--ink);text-decoration:none}
+.hero{padding:68px 0 74px;max-width:900px}.badge{display:inline-block;padding:7px 12px;border-radius:999px;background:var(--soft);color:var(--accent);font-size:.84rem;font-weight:700}
+h1{font-size:clamp(2.4rem,5.6vw,4.5rem);line-height:1.04;letter-spacing:-.04em;margin:18px 0}.lead{font-size:1.16rem;color:var(--muted);max-width:820px}
+main{padding:42px 0 78px}.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.card,.resource,.note{background:var(--card);border:1px solid var(--line);border-radius:18px;box-shadow:0 12px 30px rgba(30,45,75,.05)}
+.card{padding:24px}.card h2{font-size:1.18rem;margin:0 0 8px}.card p{margin:0;color:var(--muted)}
+section{margin-bottom:34px}.section-title{font-size:1.75rem;line-height:1.2;margin:0 0 16px}
+.resource{padding:16px 18px;margin:11px 0}.resource strong{display:block;margin-bottom:2px}
+.two{display:grid;grid-template-columns:1.2fr .8fr;gap:20px}.note{padding:22px}.list{padding-left:22px}.list li{margin:7px 0}
+.cta{padding:26px;border-radius:18px;background:linear-gradient(135deg,#23336e,#4057d6);color:#f6f8ff}.cta a{color:#fff;font-weight:700}
+footer{background:var(--dark);color:#ccd4e6;padding:34px 0}footer strong{color:#fff}
+@media(max-width:860px){.grid,.two{grid-template-columns:1fr}nav span{display:none}}
+</style>
+</head>
+<body>
+<header>
+<div class="wrap">
+<nav><a class="brand" href="/">handlanuse2-arch</a><span>Web Publishing & SEO Project Hub</span></nav>
+<div class="hero"><span class="badge">Public project hub</span>
+<h1>Web publishing, SEO experiments and practical technical resources</h1>
+<p class="lead">This public hub documents practical work with static websites, content architecture, search visibility, crawlability, technical SEO and web performance. It provides a simple starting point for exploring related projects and published resources.</p>
+</div>
+</div>
+</header>
+<main><div class="wrap">
+<section><h2 class="section-title">What this project hub covers</h2>
+<div class="grid">
+<div class="card"><h2>Static-site publishing</h2><p>Lightweight HTML projects, responsive layouts, metadata, structured content and practical deployment workflows across modern hosting platforms.</p></div>
+<div class="card"><h2>Search and crawl experiments</h2><p>Hands-on learning around discoverability, robots directives, XML sitemaps, canonical URLs, URL inspection and indexing diagnostics.</p></div>
+<div class="card"><h2>Web performance</h2><p>Practical tests involving page structure, asset loading, mobile usability, rendering and performance-focused implementation.</p></div>
+</div></section>
+
+<section><h2 class="section-title">Published project resources</h2>
+<div class="resource"><strong>Möbler och heminredning</strong> Swedish guide to planning functional furniture and home furnishings. <a href="https://handlanuse2-arch.github.io/handlanu-mobler-heminredning/">View the GitHub Pages resource</a></div>
+<div class="resource"><strong>Lowboards</strong> Guide covering proportions, placement, storage and everyday use in the living room. <a href="https://handlanu-lowboards-guide.handlanuse2.workers.dev/">View the Cloudflare resource</a></div>
+<div class="resource"><strong>Aktivitetsleksaker</strong> Guide covering age, interests, safety, variation and active play. <a href="https://6aa30d77af3a0c646980e2e3--darling-cobbler-ec3560.netlify.app/">View the Netlify resource</a></div>
+<div class="resource"><strong>Skoställ</strong> Guide to measuring, capacity, placement, materials and hallway organization. <a href="https://handlanu-skostall-guide-ffaa45.gitlab.io/">View the GitLab Pages resource</a></div>
+<div class="resource"><strong>Kontorsstolar</strong> Guide to desk-chair selection, adjustment, workspace fit and everyday use. <a href="https://handlanu-kontorsstol-guide.vercel.app/">View the Vercel resource</a></div>
+<div class="resource"><strong>Smyckesskåp</strong> Guide to jewelry storage, capacity, placement, mirrors and practical features. <a href="https://handlanu-smyckesskap-guide.web.app/">View the Firebase resource</a></div>
+<div class="resource"><strong>Sidobord</strong> Guide to side-table size, height, placement, materials and style. <a href="https://handlanu-sidobord-guide.surge.sh/">View the Surge resource</a></div>
+</section>
+
+<div class="two">
+<section><h2 class="section-title">Technical publishing workflow</h2>
+<p>Small static projects can be useful for testing real-world publishing workflows without the overhead of a large application. A typical workflow starts with semantic HTML, a meaningful page title, a concise description and a clear heading hierarchy.</p>
+<p>From there, a project can be deployed to a suitable hosting service, checked over HTTPS, and tested for mobile rendering and link integrity. Technical controls such as robots.txt, XML sitemaps and self-referencing canonical URLs can then be added where appropriate.</p>
+<p>Search visibility should be evaluated through crawl diagnostics rather than assumed. A page can be publicly accessible and still not appear in search results, so discovery, crawlability, canonical signals and content quality should be reviewed separately.</p>
+</section>
+<section><h2 class="section-title">Quality checks</h2><ul class="list"><li>Responsive layout and readable typography</li><li>Descriptive titles and meta descriptions</li><li>Logical heading hierarchy</li><li>Descriptive link text</li><li>HTTPS and working public URLs</li><li>Robots and sitemap review</li><li>Canonical URL review</li><li>Broken-link and rendering checks</li></ul></section>
+</div>
+
+<section class="note"><strong>About this site</strong><p>This page is a public technical project index. Individual resources are maintained as separate projects so each can be evaluated independently for content quality, usability and technical behavior.</p></section>
+
+<section class="cta"><h2 style="margin:0 0 8px">Explore the project resources</h2><p style="margin:0 0 12px">Use the links above to review the individual static-site deployments and their implementation patterns.</p><a href="https://www.handlanu.se/">Learn more about HandlaNu</a></section>
+</div></main>
+<footer><div class="wrap"><strong>handlanuse2-arch</strong><p>Public web publishing and technical project hub.</p></div></footer>
+</body></html>
